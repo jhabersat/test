@@ -1,0 +1,9 @@
+Orcad Tutorial
+
+Capture
+1.  In schematic type 'p' to place a part.  The Place Part window pops up.
+2.  Type in a search name under Part.  Type 'ENTER' to attach part to the cursor. 
+3.  May need to add Libraries to library list.  Click the dotted box to select a library. Pspice libraries are preferred as they have component simulation data attached.  
+3a.  Click on any library to select.  You may then type CTRL-A to select all libraries in that directory.
+4.  Adding an item 4.
+5. added line 5.
