@@ -1,11 +1,19 @@
 GIT Basic Commands
 
-git init           // initialize local repository
-git add <file.     // add file to index (stage file or files for pending commit)
-git status         // check status of working tree
-git commit         // commit changes to index
-git push           // push to remote repository
-git pull           // pull latest from remote repository
-git clone          // clone repository into a new directory
+git init                             // initialize local repository
+git add <file>                       // add file to index (stage file or files for pending commit)
+git status                           // check status of working tree
+git commit                           // commit changes to index
+git push                             // push to remote repository
+git pull                             // pull latest from remote repository
+git clone                            // clone repository into a new directory
+
+GIT Branch Commands
+git branch <newbranch>                // creates <newbranch>
+git checkout <branch>                 // loads <newbranch>
+then edit/make changes ...
+git commit			      // commit changes to <newbranch>
+git checkout master                   // go back to master 
+git merge <newbranch>                 // merge <newbranch> with master
 
 Tip: File names and directories listed inside a .gitignore file will be excluded from git tracking.
