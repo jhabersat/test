@@ -17,3 +17,4 @@ git checkout master                   // go back to master
 git merge <newbranch>                 // merge <newbranch> with master
 
 Tip: File names and directories listed inside a .gitignore file will be excluded from git tracking.
+jdh 3/27/2019
